@@ -1,0 +1,40 @@
+html {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(20, 30, 20);
+
+}
+
+body {
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.shack {
+    display: flex;
+    padding: 0;
+    margin: 400px 200px 0px 200px;
+    list-style-type: none;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(60, 50, 30);
+    max-width: 400px;
+    height: 200px;
+    color: rgb(94, 78, 47);
+    font-size: 120px;
+    justify-content: center;
+}
+
+.shack-link {
+    color: rgb(94, 79, 48);
+    text-decoration: none;
+}
+
+.ground {
+    background-color: rgb(9, 8, 7);
+    margin: 0;
+    padding: 0px;
+    align-items: baseline;
+    color: rgb(9, 8, 7);
+    height: 298px;
+}
