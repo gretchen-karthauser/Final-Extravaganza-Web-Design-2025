@@ -13,7 +13,7 @@ body {
 
 .view-window {
     background-color: rgb(255, 255, 255);
-    background-image: url(background-images/start_menu_background.png);
+    background-image: url(background-images/about_background.png);
     background-size: cover;
     background-repeat: no-repeat;
     height: 890px;
@@ -21,28 +21,14 @@ body {
     position: relative;
 }
 
-.start {
-    position: absolute;
-    top: 430px;
-    left: 600px;
-    width: 360px;
-    height: 100px;
+.text {
+    align-items: center;
 }
 
-.about {
+.back {
     position: absolute;
-    top: 560px;
-    left: 600px;
-    width: 360px;
-    height: 100px;
-}
-
-
-
-.options {
-    position: absolute;
-    top: 690px;
-    left: 600px;
-    width: 360px;
-    height: 100px;
+    top: 689px;
+    left: 1030px;
+    width: 130px;
+    height: 80px;
 }

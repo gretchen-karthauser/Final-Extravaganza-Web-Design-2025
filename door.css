@@ -13,23 +13,23 @@ body {
 
 .view-window {
     background-color: rgb(255, 255, 255);
-    background-image: url(background-images/left_shack_background.png);
+    background-image: url(background-images/door_background.png);
     background-size: cover;
     background-repeat: no-repeat;
     height: 890px;
-    width: 1520px;
+    width: 1510px;
     position: relative;
 }
 
-.shack {
+.door {
     position: absolute;
-    top: 330px;
-    left: 385px;
-    width: 300px;
-    height: 200px;
+    top: 150px;
+    left: 550px;
+    width: 415px;
+    height: 550px;
 }
 
-.shack-text {
+.door-text {
     position: absolute;
     top: 800px;
     left: 630px;
@@ -44,43 +44,15 @@ body {
     overflow: hidden;  
 }
 
-.shack:hover + .shack-text {
+.door:hover + .door-text {
     width: 250px;
-    height: 50px;   
-}
-
-.bear {
-    position: absolute;
-    top: 430px;
-    left: 965px;
-    width: 120px;
-    height: 120px;
-}
-
-.bear-text {
-    position: absolute;
-    top: 800px;
-    left: 650px;
-    background-color: rgb(0, 0, 0, .75);
-    color: rgb(215, 215, 215);
-    border-radius: 30px;
-    border-color: black;
-    border: 15px;
-    transition: all 1000ms;
-    width: 0px;
-    height: 40px;
-    overflow: hidden;  
-}
-
-.bear:hover + .bear-text {
-    width: 180px;
     height: 50px;   
 }
 
 .back {
     position: absolute;
-    top: 692px;
-    left: 1270px;
-    width: 120px;
-    height: 70px;
+    top: 772px;
+    left: 40px;
+    width: 180px;
+    height: 100px;
 }

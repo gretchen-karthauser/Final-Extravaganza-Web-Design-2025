@@ -13,7 +13,7 @@ body {
 
 .view-window {
     background-color: rgb(255, 255, 255);
-    background-image: url(background-images/left_shack_interior_background.png);
+    background-image: url(background-images/right_shack_interior_background.png);
     background-size: cover;
     background-repeat: no-repeat;
     height: 890px;
@@ -21,10 +21,271 @@ body {
     position: relative;
 }
 
+.gem {
+    position: absolute;
+    top: 155px;
+    left: 155px;
+    transition: all 500ms;   
+    display: flex;
+    padding: 10px;  
+}
+
+.gem:hover {
+    top: 100px;
+    left: 100px;    
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 10px;
+}
+
+.gem img {
+    width: 70px;
+    transition: all 500ms;      
+}
+
+.gem:hover img {
+    width: 300px;
+}
+
+.gem-description {
+    display: none;
+    width: 350px;
+    color: rgb(215, 215, 215);
+}
+
+.gem:hover .gem-description {
+    display: block;
+}
+
+.orb {
+    position: absolute;
+    top: 120px;
+    left: 320px;
+    transition: all 500ms;   
+    display: flex;
+    padding: 10px;  
+}
+
+.orb:hover {
+    top: 100px;
+    left: 250px;    
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 10px;
+}
+
+.orb img {
+    width: 70px;
+    transition: all 500ms;      
+}
+
+.orb:hover img {
+    width: 300px;
+}
+
+.orb-description {
+    display: none;
+    width: 350px;
+    color: rgb(215, 215, 215);
+}
+
+.orb:hover .orb-description {
+    display: block;
+}
+
+.hat {
+    position: absolute;
+    top: 132px;
+    left: 495px;
+    transition: all 500ms;   
+    display: flex;
+    padding: 10px;  
+}
+
+.hat:hover {
+    top: 100px;
+    left: 250px;    
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 10px;
+}
+
+.hat img {
+    width: 100px;
+    transition: all 500ms;      
+}
+
+.hat:hover img {
+    width: 300px;
+}
+
+.hat-description {
+    display: none;
+    width: 350px;
+    color: rgb(215, 215, 215);
+}
+
+.hat:hover .hat-description {
+    display: block;
+}
+
+.jar {
+    position: absolute;
+    top: 122px;
+    left: 690px;
+    transition: all 500ms;   
+    display: flex;
+    padding: 10px;  
+}
+
+.jar:hover {
+    top: 100px;
+    left: 250px;    
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 10px;
+}
+
+.jar img {
+    width: 85px;
+    transition: all 500ms;      
+}
+
+.jar:hover img {
+    width: 300px;
+}
+
+.jar-description {
+    display: none;
+    width: 350px;
+    color: rgb(215, 215, 215);
+}
+
+.jar:hover .jar-description {
+    display: block;
+}
+
+.guy {
+    position: absolute;
+    top: 150px;
+    left: 870px;
+    transition: all 500ms;   
+    display: flex;
+    padding: 10px;  
+}
+
+.guy:hover {
+    top: 100px;
+    left: 310px;    
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 10px;
+}
+
+.guy img {
+    width: 85px;
+    transition: all 500ms;      
+}
+
+.guy:hover img {
+    width: 300px;
+}
+
+.guy-description {
+    display: none;
+    width: 350px;
+    color: rgb(215, 215, 215);
+}
+
+.guy:hover .guy-description {
+    display: block;
+}
+
+.shopkeep {
+    position: absolute;
+    top: 330px;
+    left: 340px;
+    width: 330px;
+    height: 140px;
+}
+
+.shopkeep-text {
+    position: absolute;
+    top: 500px;
+    left: 330px;
+    background-color: rgb(0, 0, 0, .75);
+    color: rgb(215, 215, 215);
+    border-radius: 30px;
+    border-color: black;
+    border: 15px;
+    transition: all 1000ms;
+    width: 0px;
+    height: 40px;
+    overflow: hidden;
+}
+
+.shopkeep:hover + .shopkeep-text {
+    width: 400px;
+    height: 70px;   
+}
+
+.register {
+    position: absolute;
+    top: 340px;
+    left: 740px;
+    width: 150px;
+    height: 150px;
+}
+
+.register-text {
+    position: absolute;
+    top: 500px;
+    left: 330px;
+    background-color: rgb(0, 0, 0, .75);
+    color: rgb(215, 215, 215);
+    border-radius: 30px;
+    border-color: black;
+    border: 15px;
+    transition: all 1000ms;
+    width: 0px;
+    height: 40px;
+    overflow: hidden;
+    /* white-space: nowrap; */
+    /* word-break: break-all; */
+}
+
+.register:hover + .register-text {
+    width: 400px;
+    height: 50px;
+}
+
+.bear-trap {
+    position: absolute;
+    top: 325px;
+    left: 110px;
+    width: 110px;
+    height: 110px;
+}
+
+.bear-trap-text {
+    position: absolute;
+    top: 500px;
+    left: 330px;
+    background-color: rgb(0, 0, 0, .75);
+    color: rgb(215, 215, 215);
+    border-radius: 30px;
+    border-color: black;
+    border: 15px;
+    transition: all 1000ms;
+    width: 0px;
+    height: 40px;
+    overflow: hidden;
+}
+
+.bear-trap:hover + .bear-trap-text {
+    width: 400px;
+    height: 50px;   
+}
+
 .exit {
     position: absolute;
     top: 100px;
-    left: 80px;
+    left: 1148px;
     width: 317px;
     height: 550px;
 }
@@ -47,265 +308,4 @@ body {
 .exit:hover + door-text {
     width: 400px;
     height: 40px;    
-}
-
-.candle {
-    position: absolute;
-    top: 143px;
-    left: 550px;
-    transition: all 500ms;   
-    display: flex;
-    padding: 10px;  
-}
-
-.candle:hover {
-    top: 100px;
-    left: 500px;    
-    background-color: rgba(0, 0, 0, 0.75);
-    border-radius: 10px;
-}
-
-.candle img {
-    width: 70px;
-    transition: all 500ms;      
-}
-
-.candle:hover img {
-    width: 300px;
-}
-
-.candle-description {
-    display: none;
-    width: 350px;
-    color: rgb(215, 215, 215);
-}
-
-.candle:hover .candle-description {
-    display: block;
-}
-
-.vial {
-    position: absolute;
-    top: 119px;
-    left: 726px;
-    transition: all 500ms;   
-    display: flex;
-    padding: 10px;    
-}
-
-.vial:hover {
-    top: 100px;
-    left: 500px;    
-    background-color: rgba(0, 0, 0, 0.75);
-    border-radius: 10px;
-}
-
-.vial img {
-    width: 70px;
-    transition: all 500ms;      
-}
-
-.vial:hover img {
-    width: 300px;
-}
-
-.vial-description {
-    display: none;
-    width: 350px;
-    color: rgb(215, 215, 215);
-}
-
-.vial:hover .vial-description {
-    display: block;
-}
-
-.hourglass {
-    position: absolute;
-    top: 128px;
-    left: 920px;
-    transition: all 500ms;   
-    display: flex;
-    padding: 10px;    
-}
-
-.hourglass:hover {
-    top: 100px;
-    left: 500px;    
-    background-color: rgba(0, 0, 0, 0.75);
-    border-radius: 10px;
-}
-
-.hourglass img {
-    width: 70px;
-    transition: all 500ms;      
-}
-
-.hourglass:hover img {
-    width: 300px;
-}
-
-.hourglass-description {
-    display: none;
-    width: 350px;
-    color: rgb(215, 215, 215);
-}
-
-.hourglass:hover .hourglass-description {
-    display: block;
-}
-
-.worm {
-    position: absolute;
-    top: 186px;
-    left: 1085px;
-    transition: all 500ms;   
-    display: flex;
-    padding: 10px;    
-}
-
-.worm:hover {
-    top: 100px;
-    left: 520px;    
-    background-color: rgba(0, 0, 0, 0.75);
-    border-radius: 10px;
-}
-
-.worm img {
-    width: 80px;
-    transition: all 500ms;      
-}
-
-.worm:hover img {
-    width: 300px;
-}
-
-.worm-description {
-    display: none;
-    width: 350px;
-    color: rgb(215, 215, 215);
-}
-
-.worm:hover .worm-description {
-    display: block;
-}
-
-.eyeglass {
-    position: absolute;
-    top: 165px;
-    left: 1260px;
-    transition: all 500ms;   
-    display: flex;
-    padding: 10px;    
-}
-
-.eyeglass:hover {
-    top: 110px;
-    left: 690px;    
-    background-color: rgba(0, 0, 0, 0.75);
-    border-radius: 10px;
-}
-
-.eyeglass img {
-    width: 120px;
-    transition: all 500ms;      
-}
-
-.eyeglass:hover img {
-    width: 350px;
-}
-
-.eyeglass-description {
-    display: none;
-    width: 350px;
-    color: rgb(215, 215, 215);
-}
-
-.eyeglass:hover .eyeglass-description {
-    display: block;
-}
-
-.shopkeep {
-    position: absolute;
-    top: 330px;
-    left: 850px;
-    width: 330px;
-    height: 140px;
-}
-
-.shopkeep-text {
-    position: absolute;
-    top: 500px;
-    left: 850px;
-    background-color: rgb(0, 0, 0, .75);
-    color: rgb(215, 215, 215);
-    border-radius: 30px;
-    border-color: black;
-    border: 15px;
-    transition: all 1000ms;
-    width: 0px;
-    height: 40px;
-    overflow: hidden;
-}
-
-.shopkeep:hover + .shopkeep-text {
-    width: 400px;
-    height: 70px;   
-}
-
-.register {
-    position: absolute;
-    top: 325px;
-    left: 650px;
-    width: 150px;
-    height: 150px;
-}
-
-.register-text {
-    position: absolute;
-    top: 500px;
-    left: 850px;
-    background-color: rgb(0, 0, 0, .75);
-    color: rgb(215, 215, 215);
-    border-radius: 30px;
-    border-color: black;
-    border: 15px;
-    transition: all 1000ms;
-    width: 0px;
-    height: 40px;
-    overflow: hidden;
-    /* white-space: nowrap; */
-    /* word-break: break-all; */
-}
-
-.register:hover + .register-text {
-    width: 400px;
-    height: 40px;
-}
-
-.fish-bowl {
-    position: absolute;
-    top: 340px;
-    left: 1280px;
-    width: 170px;
-    height: 120px;
-}
-
-.fish-bowl-text {
-    position: absolute;
-    top: 500px;
-    left: 850px;
-    background-color: rgb(0, 0, 0, .75);
-    color: rgb(215, 215, 215);
-    border-radius: 30px;
-    border-color: black;
-    border: 15px;
-    transition: all 1000ms;
-    width: 0px;
-    height: 40px;
-    overflow: hidden;   
-}
-
-.fish-bowl:hover + .fish-bowl-text {
-    width: 500px;
-    height: 40px;   
 }
