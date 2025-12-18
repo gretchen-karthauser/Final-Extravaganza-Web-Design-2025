@@ -1,5 +1,6 @@
 html {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 36pt;
     background-color: rgb(0, 0, 0);
 }
 
@@ -9,6 +10,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    list-style: none;
 }
 
 .view-window {
@@ -19,6 +21,22 @@ body {
     height: 890px;
     width: 1490px;
     position: relative;
+}
+
+.wrapper {
+    max-width: 750px;
+    margin: auto;
+    position: absolute;
+    height: 450px;
+    width: 300px;
+    top: 320px;
+    left: 610px;
+}
+
+.nav {
+    list-style: none;
+    text-align: center;
+    padding: 0;
 }
 
 .back {
